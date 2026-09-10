@@ -1,0 +1,20 @@
+{
+  "name": "microevals-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MicroEvals testing and benchmarking platform",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n \"api,web\" -c \"cyan,magenta\" \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": ".\\.venv\\Scripts\\python -m uvicorn app.main:app --app-dir apps/api --reload --port 8000",
+    "dev:web": "pnpm --filter microevals-web dev",
+    "build": "pnpm --filter microevals-web build",
+    "test": ".\\.venv\\Scripts\\python -m pytest packages/core/tests packages/cli/tests apps/api/tests"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

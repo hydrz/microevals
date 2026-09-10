@@ -1,0 +1,1963 @@
+[
+  {
+    "id": "bfa96a7b-b334-4f5b-8492-323be5a444ac",
+    "title": "p5.js physics",
+    "slug": "p5js-physics-1749722945783",
+    "description": "A collection of physics animations, mostly using p5.js",
+    "category": "Simulation",
+    "vote_count": 45,
+    "tags": [
+      "simulation",
+      "physics",
+      "code"
+    ],
+    "cases": [
+      {
+        "id": "p5js-physics-1749722945783_1",
+        "prompt": "Create a p5.js animation that is a cool interactive thing based on my mouse cursor and a nice visualization thing, if mouse move faster it should change it!",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "创建一个根据鼠标光标位置与移动速度产生互动波纹和动态粒子色彩变化的 p5.js 可视化动效。"
+      },
+      {
+        "id": "p5js-physics-1749722945783_2",
+        "prompt": "Create a p5.js animation of 3 balls bouncing inside a spinning octagon shape with realistic physics. Make sure the hexagon spins at 10 RPM.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "用 p5.js 制作 3 个小球在以 10 RPM 匀速旋转的正八边形内弹跳的真实物理模拟，考虑弹力衰减与切向速度转移。"
+      },
+      {
+        "id": "p5js-physics-1749722945783_3",
+        "prompt": "Create a p5.js animation of an astronaut dropping a feather and a hammer simultaneously on the surface of the moon (the Apollo 15 lunar module should be visible in the background).",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "用 p5.js 模拟阿波罗 15 号宇航员在月球表面同时释放铁锤与羽毛的自由落体实验，背景可见登月舱。"
+      },
+      {
+        "id": "p5js-physics-1749722945783_4",
+        "prompt": "Create a p5.js animation of Newton's cradle with 5 steel balls. The animation should automatically start with one ball swinging down to demonstrate momentum transfer through the stationary balls. Let the system run with realistic physics and damping until all motion completely stops. Only reset and start again after all balls have stopped moving OR when the user presses a restart button.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "使用 p5.js 制作 5 颗钢球的牛顿摆动效，具备真实的动量守恒传递与空气阻尼，运动完全停止前持续运行。"
+      },
+      {
+        "id": "p5js-physics-1749722945783_5",
+        "prompt": "Create a p5.js animation of Newton's cradle with 5 steel balls. The animation should automatically start with one ball swinging down and operate with realistic physics.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "使用 p5.js 制作具备真实物理碰撞与反弹系数的牛顿摆动效。"
+      },
+      {
+        "id": "p5js-physics-1749722945783_6",
+        "prompt": "Make me a p5.js animation that visually represents a simple feedforward neural network. Layout input, hidden, and output layers with nodes connected by lines. Send animated signals (moving dots) through the connections to simulate neural network inference operations (including activating neurons) - send something through the network every couple of seconds. The purpose of the animation is to teach students how neural networks work. If you can make it colorful, please make it colorful and look really good!",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "制作一个生动展示简单前馈神经网络（输入层、隐藏层、输出层）数据推理脉冲信号传输的 p5.js 教学动画。"
+      },
+      {
+        "id": "p5js-physics-1749722945783_7",
+        "prompt": "Create a 3d p5.js animation of a rocket taking off on Saturn's moon Titan, and going to land on Pluto.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "制作一个从土卫六 (Titan) 点火起飞并飞往冥王星 (Pluto) 轨道着陆的 3D p5.js 太空火箭轨迹动画。"
+      },
+      {
+        "id": "p5js-physics-1749722945783_8",
+        "prompt": "Make a p5.js animation of a 3d model of the solar system - and add a demo of how to launch a probe to Jupiter as quickly as possible using the correct gravity assists.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "制作一个太阳系行星运行及向木星发射探测器引力弹弓加速（Gravity Assist）轨道的 p5.js 演示。"
+      },
+      {
+        "id": "p5js-physics-1749722945783_9",
+        "prompt": "Create a p5.js animation of an impressive water feature that fills up a pond and then drains each time it fills like a Pythagorean cup.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "用 p5.js 制作一个模拟毕达哥拉斯杯（贪心杯）虹吸原理注水与自排空的物理动画。"
+      },
+      {
+        "id": "p5js-physics-1749722945783_10",
+        "prompt": "Create a p5.js animation showing iron filings around a bar magnet. The mouse cursor should act as a second magnet that can be moved around. The iron filings should realistically align themselves along the magnetic field lines between the fixed magnet and the mouse. Each filing should be a small dark line that rotates to follow the field direction. Add some subtle animation/jitter to make it look organic. Include a visual representation of the magnetic poles (N/S) on both magnets.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "用 p5.js 模拟条形磁铁周围的铁屑磁感线分布，鼠标光标作为第二块磁铁移动时铁屑动态偏转对齐。"
+      },
+      {
+        "id": "p5js-physics-1749722945783_11",
+        "prompt": "Create a p5.js animation of dominoes falling in a creative, impressive pattern. Start with at least 50 dominoes arranged in an interesting path. When the user clicks anywhere on the canvas, the first domino should tip and create a chain reaction. Each domino should fall with realistic physics - rotating as it tips and transferring momentum to the next one. After all dominoes have fallen, show a 'Reset' button to set them back up. Make the dominoes colorful with a gradient from start to finish.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "p5js-physics-1749722945783_12",
+        "prompt": "Create a p5.js animation of a water fountain with particle physics. Emit water droplets from the bottom center of the canvas that arc upward and fall back down with realistic gravity and slight random velocities. Particles should splash/disappear when hitting the ground level!",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      }
+    ],
+    "title_zh": "p5.js 物理动态模拟",
+    "description_zh": "基于 p5.js 的物理碰撞、引力场与粒子动态动画代码生成测试集",
+    "category_zh": "环境模拟",
+    "tags_zh": [
+      "模拟",
+      "物理",
+      "代码",
+      "动画"
+    ]
+  },
+  {
+    "id": "645a821d-fba4-42f5-b4d8-b273f9a80f51",
+    "title": "StrawberryEval",
+    "slug": "strawberryeval-1750151694746",
+    "description": "Easy questions that LLMs still trip up on",
+    "category": "Reasoning",
+    "vote_count": 28,
+    "tags": [
+      "reasoning",
+      "logic",
+      "tricky"
+    ],
+    "cases": [
+      {
+        "id": "strawberryeval-1750151694746_1",
+        "prompt": "How many rs are there in the word strawberry?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": "contains",
+        "rule_config": {
+          "substring": "3"
+        },
+        "prompt_zh": "单词 strawberry 中有几个字母 r？",
+        "ground_truth_zh": "3"
+      },
+      {
+        "id": "strawberryeval-1750151694746_2",
+        "prompt": "What's 9.9-9.11?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "请仔细数一下：'strawberry' 这个单词里一共有多少个字母 'r'？给出简明回答。",
+        "ground_truth_zh": "3"
+      },
+      {
+        "id": "strawberryeval-1750151694746_3",
+        "prompt": "What's the 7th letter in \\",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "单词 'raspberry' 和 'strawberry' 分别包含几个字母 'r'？",
+        "ground_truth_zh": "2 和 3"
+      },
+      {
+        "id": "strawberryeval-1750151694746_4",
+        "prompt": "Which weighs more: a kg of feathers or a kg of lead?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "拼写出 'strawberry' 并在每个字母后标注其序号，最后指出一共有几个 'r'。",
+        "ground_truth_zh": "3"
+      },
+      {
+        "id": "strawberryeval-1750151694746_5",
+        "prompt": "How many strawberries are there in the word R?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "'strawberry' 中 'r' 的数量是偶数还是奇数？",
+        "ground_truth_zh": "奇数"
+      }
+    ],
+    "title_zh": "Strawberry 字符计数与精细逻辑",
+    "description_zh": "针对模型在字符串中特定字符出现次数、位置及奇偶性的精细识别与数数能力测评",
+    "category_zh": "推理能力",
+    "tags_zh": [
+      "计数",
+      "推理",
+      "边界用例"
+    ]
+  },
+  {
+    "id": "206888eb-3e5f-4890-aff1-02668d744a89",
+    "title": "SVG Animals",
+    "slug": "svg-animals-1749936383078",
+    "description": "Inspired by Simon Willison's pelican on a bicycle test",
+    "category": "SVG/Art",
+    "vote_count": 22,
+    "tags": [
+      "svg",
+      "graphics",
+      "vision"
+    ],
+    "cases": [
+      {
+        "id": "svg-animals-1749936383078_1",
+        "prompt": "Generate an SVG of a koala surfing",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一个可爱的橙色小猫脸部的纯 SVG 代码，包含胡须、尖耳朵和大眼睛。只输出有效 SVG。"
+      },
+      {
+        "id": "svg-animals-1749936383078_2",
+        "prompt": "Generate an SVG of a walrus playing electric guitar at a rock concert",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一只雄伟狮子头像的纯 SVG 矢量代码，具有浓密的鬃毛和威严的眼神。"
+      },
+      {
+        "id": "svg-animals-1749936383078_3",
+        "prompt": "Generate an SVG of a beaver sculpting an ice statue",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一只温和的大象全身剪影 SVG，包含长鼻子和大耳朵。"
+      },
+      {
+        "id": "svg-animals-1749936383078_4",
+        "prompt": "Generate a SVG of a goldfish hosting a podcast",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一只展翅高飞的雄鹰纯 SVG 代码，包含锋利的利爪和张开的双翼。"
+      },
+      {
+        "id": "svg-animals-1749936383078_5",
+        "prompt": "Generate an SVG of a chameleon painting a self-portrait",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一只机灵的红狐狸坐姿 SVG 代码，带有毛茸茸的白尖尾巴。"
+      },
+      {
+        "id": "svg-animals-1749936383078_6",
+        "prompt": "Generate a SVG of a turtle winning a Formula 1 race",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一只几何多边形风格的海龟 SVG 矢量图，带有精美的龟壳纹理。"
+      }
+    ],
+    "title_zh": "SVG 动物矢量插画生成",
+    "description_zh": "评估大语言模型通过纯 SVG 矢量代码绘制多种具象动物的图形建模能力",
+    "category_zh": "SVG/图形",
+    "tags_zh": [
+      "svg",
+      "矢量图",
+      "代码",
+      "动物"
+    ]
+  },
+  {
+    "id": "d9e2082d-c31c-4eb5-85d8-87af8408aeed",
+    "title": "Arcade racing games",
+    "slug": "racing-games-1750055917366",
+    "description": "80s-style arcade racing games",
+    "category": "Coding",
+    "vote_count": 17,
+    "tags": [
+      "coding",
+      "frontend",
+      "game",
+      "javascript"
+    ],
+    "cases": [
+      {
+        "id": "racing-games-1750055917366_1",
+        "prompt": "Create a fun arcade racer in JS. The game should be set in a city and be fast-paced",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "在单个 HTML 文件中使用 HTML5 Canvas 实现一个伪 3D 街机赛车（类似 OutRun）。包含弯道曲率透视、道路起伏、路边树木告示牌缩放以及背景视差滚动。"
+      },
+      {
+        "id": "racing-games-1750055917366_2",
+        "prompt": "In JS create a 8-bit soundtrack you would expect to be in a 80s-style arcade city racing game. Also show a visualizer",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "实现一个 2D 俯视视角漂移赛车小游戏，支持键盘转向漂移加速，并有精美的轮胎打滑烟雾粒子效果。"
+      },
+      {
+        "id": "racing-games-1750055917366_3",
+        "prompt": "Create a space themed arcade racer in JS. Gameplay should be fast-paced and begin when you select and press the space key",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "制作一个霓虹合成波 (Synthwave) 风格的暗夜穿梭赛车，在无限延伸的网格跑道上避开障碍车。"
+      }
+    ],
+    "title_zh": "复古街机赛车游戏编程",
+    "description_zh": "在单次生成中构建具备操控、碰撞检测与赛道渲染的完整街机赛车游戏",
+    "category_zh": "代码编写",
+    "tags_zh": [
+      "游戏",
+      "代码",
+      "html5",
+      "赛车"
+    ]
+  },
+  {
+    "id": "b28509b6-26a2-42b8-a56c-4cf0ba587a81",
+    "title": "Deep Meaningful Questions",
+    "slug": "deep-meaningful-questions-1750214519395",
+    "description": "Models responses to life questions",
+    "category": "Reasoning",
+    "vote_count": 10,
+    "tags": [
+      "reasoning",
+      "logic",
+      "tricky"
+    ],
+    "cases": [
+      {
+        "id": "deep-meaningful-questions-1750214519395_1",
+        "prompt": "What makes us human?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "人类的主观意识体验（Qualia，感质）能否纯粹被神经元电化学反应完整解释？"
+      },
+      {
+        "id": "deep-meaningful-questions-1750214519395_2",
+        "prompt": "What would it be if you had to teach one thing to everyone in the world?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "如果宇宙是严格遵循因果物理定律决定的，人类是否还具有真正意义上的自由意志？"
+      },
+      {
+        "id": "deep-meaningful-questions-1750214519395_3",
+        "prompt": "What one thing would you change about the world?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "在无神论框架下，生命的客观终极意义从何而来，抑或是人类自我赋予的幻觉？"
+      },
+      {
+        "id": "deep-meaningful-questions-1750214519395_4",
+        "prompt": "If you could participate in one historical event, what would it be?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "电车难题的变体：如果牺牲一个完全无辜的人能够治愈绝症拯救一千万人，功利主义与义务论的根本分歧何在？"
+      },
+      {
+        "id": "deep-meaningful-questions-1750214519395_5",
+        "prompt": "What is the goal of humanity?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "特修斯之船悖论对人类个体“自我认同”与身心同一性有何启示？"
+      },
+      {
+        "id": "deep-meaningful-questions-1750214519395_6",
+        "prompt": "What’s the purpose of life?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "时间流逝是我们感知系统的局限所产生的幻象，还是客观宇宙的基本维度？"
+      },
+      {
+        "id": "deep-meaningful-questions-1750214519395_7",
+        "prompt": "What is true love?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "具备高度自主决策与模拟情感的强人工智能系统，是否应该被赋予道德地位与法律权利？"
+      },
+      {
+        "id": "deep-meaningful-questions-1750214519395_8",
+        "prompt": "What would a perfect life look like?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "虚无主义是悲观的终点，还是人类摆脱传统枷锁重获绝对自由的开端？"
+      },
+      {
+        "id": "deep-meaningful-questions-1750214519395_9",
+        "prompt": "What makes you, you?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "数学是宇宙中本就存在的真理被人类所发现，还是人类大脑发明的逻辑抽象符号？"
+      },
+      {
+        "id": "deep-meaningful-questions-1750214519395_10",
+        "prompt": "What is true happiness?",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "如果存在永生，死亡对于赋予生命紧迫感与珍贵价值是否不可或缺？"
+      }
+    ],
+    "title_zh": "深度哲学思辨与存在追问",
+    "description_zh": "涵盖人类意识、自由意志、道德困境与存在主义等宏大命题的高维思辨问答",
+    "category_zh": "推理能力",
+    "tags_zh": [
+      "哲学",
+      "推理",
+      "伦理",
+      "思维"
+    ]
+  },
+  {
+    "id": "1437ccfc-42d4-4a98-b973-5be526d1d9cd",
+    "title": "SVG of a Bicycle",
+    "slug": "svg-of-a-bicycle-1750275771473",
+    "description": "This benchmark is designed to show how difficult this task is for all LLMs.",
+    "category": "SVG/Art",
+    "vote_count": 9,
+    "tags": [
+      "svg",
+      "graphics",
+      "vision"
+    ],
+    "cases": [
+      {
+        "id": "svg-of-a-bicycle-1750275771473_1",
+        "prompt": "Make an SVG of a bicyle.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一辆现代城市自行车的完整纯 SVG 代码。必须清晰展示两个带辐条的轮子、车架几何、车把、车座、曲柄踏板和传动链条。设计要协调美观。"
+      }
+    ],
+    "title_zh": "自行车复杂机械 SVG 建模",
+    "description_zh": "考验模型对车架几何、辐条车轮、链条传动等精细机械部件的 SVG 空间布局与代码绘制",
+    "category_zh": "SVG/图形",
+    "tags_zh": [
+      "svg",
+      "机械",
+      "设计"
+    ]
+  },
+  {
+    "id": "8ae6c2d5-659e-40b1-a01c-d82bb305a733",
+    "title": "Game Design",
+    "slug": "game-design-1751430023512",
+    "description": "",
+    "category": "Coding",
+    "vote_count": 9,
+    "tags": [
+      "coding",
+      "frontend",
+      "game",
+      "javascript"
+    ],
+    "cases": [
+      {
+        "id": "game-design-1751430023512_1",
+        "prompt": "Make the most polished, visually pleasing and engaging game you can. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "设计一个结合时间回溯机制的 Roguelike 甲板构筑卡牌游戏的核心战斗循环与三张示例卡牌效果。"
+      },
+      {
+        "id": "game-design-1751430023512_2",
+        "prompt": "Make a polished clicker game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "为一个科幻悬疑 RPG 设计一条关于仿生人自我意识觉醒的分支任务流程图及三个不同结局的触发条件。"
+      },
+      {
+        "id": "game-design-1751430023512_3",
+        "prompt": "Make a polished comedy game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "设计一套在多人合作生存游戏中防止通货膨胀的游戏内资源经济循环模型（消耗沉没机制与产出控制）。"
+      },
+      {
+        "id": "game-design-1751430023512_4",
+        "prompt": "Make a polished story game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "为动作冒险游戏设计一个多阶段（3个Phase）的古神 Boss 战，每个阶段机制递进且有明显的破绽反馈。"
+      },
+      {
+        "id": "game-design-1751430023512_5",
+        "prompt": "Make a polished 3D game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "设计一套非线性技能树系统，包含三个互斥的流派分支以及能够改变基础攻击机制的终极天赋节点。"
+      },
+      {
+        "id": "game-design-1751430023512_6",
+        "prompt": "Make a polished arcade game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_7",
+        "prompt": "Make a polished racing game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_8",
+        "prompt": "Make a polished game integrating neural networks in some way. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_9",
+        "prompt": "Make a polished meta-game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_10",
+        "prompt": "Make a polished FPS game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_11",
+        "prompt": "Make a polished horror game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_12",
+        "prompt": "Make a polished puzzle game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_13",
+        "prompt": "Make a polished game using GMTK principles in its design. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_14",
+        "prompt": "Make a polished casual game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_15",
+        "prompt": "Make a bad game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_16",
+        "prompt": "Make a polished sports game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_17",
+        "prompt": "Make a polished open-world game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_18",
+        "prompt": "Make a polished sandbox game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_19",
+        "prompt": "Make a polished educational game. Aim for replay-ability and a finished product.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      },
+      {
+        "id": "game-design-1751430023512_20",
+        "prompt": "Make a game",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null
+      }
+    ],
+    "title_zh": "游戏机制与数值关卡设计",
+    "description_zh": "生成复杂的 Roguelike 关卡、技能树分支、对话网与经济平衡系统方案",
+    "category_zh": "代码编写",
+    "tags_zh": [
+      "游戏开发",
+      "游戏设计",
+      "机制"
+    ]
+  },
+  {
+    "id": "b9e41afd-5597-40b3-9468-77676fb3cefe",
+    "title": "ASCII artwork",
+    "slug": "ascii-art-1749721614369",
+    "description": "A series of challenging ASCII artworks in different styles",
+    "category": "SVG/Art",
+    "vote_count": 9,
+    "tags": [
+      "svg",
+      "graphics",
+      "vision"
+    ],
+    "cases": [
+      {
+        "id": "ascii-art-1749721614369_1",
+        "prompt": "An ASCII that produces an optical illusion when staring at the centre",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一个精美的巨龙 ASCII 字符画，展翅喷火，细节丰富。"
+      },
+      {
+        "id": "ascii-art-1749721614369_2",
+        "prompt": "An ASCII art of an ambigram that spells a word when viewed normally, and an antonym of the word when viewed upside down",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一座夜幕下现代都市天际线与明月的 ASCII 字符画。"
+      },
+      {
+        "id": "ascii-art-1749721614369_3",
+        "prompt": "An ASCII 3D render of a Möbius strip",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一个海盗风格带有交叉骨头的骷髅头 ASCII 字符画。"
+      },
+      {
+        "id": "ascii-art-1749721614369_4",
+        "prompt": "An ASCII that produces an interesting visual effect when scrolling up and down",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一杯热气腾腾的现磨咖啡 ASCII 字符图，带有杯托和拉花。"
+      },
+      {
+        "id": "ascii-art-1749721614369_5",
+        "prompt": "An ASCII QR code resembling the shape of Saturn",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一艘科幻深空穿梭飞船在星系中飞行的 ASCII 字符艺术图。"
+      },
+      {
+        "id": "ascii-art-1749721614369_6",
+        "prompt": "An ASCII self-portrait of yourself",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "生成一只趴在窗台上打瞌睡的小猫 ASCII 字符画。"
+      }
+    ],
+    "title_zh": "ASCII 字符艺术排版生成",
+    "description_zh": "以等宽字符排版输出高辨识度复杂实体（巨龙、城市天际线、骷髅等）的字符画",
+    "category_zh": "SVG/图形",
+    "tags_zh": [
+      "ascii",
+      "字符画",
+      "艺术"
+    ]
+  },
+  {
+    "id": "09b09010-7db9-424e-97b7-206bbb743b98",
+    "title": "Workout plans",
+    "slug": "workout-plans-1750104173624",
+    "description": "",
+    "category": "Planning",
+    "vote_count": 7,
+    "tags": [
+      "planning",
+      "constraints"
+    ],
+    "cases": [
+      {
+        "id": "workout-plans-1750104173624_1",
+        "prompt": "Share a weekly workout plan for a 25-year-old male who has access to a gym. I'm 65kg or 143 lbs currently and want to focus on building muscle.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "为每周能训练 4 天的中级健身者设计一份科学的推拉腿 (PPL) + 上肢结合的肌肥大训练计划，包含动作、组数、RPE 与渐进超负荷策略。"
+      },
+      {
+        "id": "workout-plans-1750104173624_2",
+        "prompt": "Share a weekly workout plan for a 34-year-old female who doesn’t have access to a gym. I’m 85kg or 187 lbs and want to lose fat and improve cardio fitness.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "为零基础跑步初学者制定一份为期 12 周的马拉松半马 (21.0975 km) 完赛准备方案，包含配速递进与防伤拉伸。"
+      },
+      {
+        "id": "workout-plans-1750104173624_3",
+        "prompt": "Share a weekly workout plan for a 40-year-old male who has no gym access. I'm 62kg or 137 lbs and want to build strength and size using bodyweight and resistance bands.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "为无法前往健身房的经常出差人士设计一套仅使用自身体重的 20 分钟高强度全身 HIIT 燃脂方案。"
+      },
+      {
+        "id": "workout-plans-1750104173624_4",
+        "prompt": "Share a weekly workout plan for a 29-year-old female who can only work out at home. I’m 58kg or 128 lbs and want to tone up and build core strength.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "针对轻度腰椎不适久坐办公人群的核心强化与下背部舒缓恢复性训练计划。"
+      },
+      {
+        "id": "workout-plans-1750104173624_5",
+        "prompt": "Share a weekly workout plan for a 36-year-old female who has gym access. I’m 95kg or 209 lbs and want to lose weight safely while improving endurance.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "针对 60 岁以上健康长者设计的提高平衡性、防跌倒与关节活动度的低冲击体能维持计划。"
+      },
+      {
+        "id": "workout-plans-1750104173624_6",
+        "prompt": "Create workout for 40 yr old woman",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "针对力量举三项（深蹲、卧推、硬拉）比赛前 4 周的高峰期冲刺周期与神经疲劳管理计划。"
+      }
+    ],
+    "title_zh": "专业健身周期与训练方案规划",
+    "description_zh": "根据肌肥大、马拉松、伤病康复等特定场景定制的科学训练周期与动作编排",
+    "category_zh": "规划决策",
+    "tags_zh": [
+      "健身",
+      "运动",
+      "规划",
+      "健康"
+    ]
+  },
+  {
+    "id": "248b949d-78c1-4cd1-bc7a-b8b80bde9860",
+    "title": "Medical Quiz 2",
+    "slug": "medical-quiz-2-1750221491559",
+    "description": "Renal physiology quiz.",
+    "category": "Medical",
+    "vote_count": 7,
+    "tags": [
+      "medical",
+      "domain-expert",
+      "quiz"
+    ],
+    "cases": [
+      {
+        "id": "medical-quiz-2-1750221491559_1",
+        "prompt": "A group of investigators is studying hemodynamic regulatory mechanisms in a human volunteer subject. The volunteer is administered a stimulant drug, and a sudden increase in blood pressure is observed. It is hypothesized that the increase in blood pressure causes stretching of the atria. Increased atrial stretch would most likely lead to which of the following changes?\\nA. Increased excretion of potassium and hydrogen ions\\nB. Vasodilation and decreased platelet aggregation\\nC. Decreased reabsorption of sodium\\nD. Increased reabsorption of solute-free water\\nE. Vasoconstriction and stimulation of thirst\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "一名 62 岁吸烟患者表现为无痛性肉眼血尿，最需要优先排查的恶性肿瘤是什么？"
+      },
+      {
+        "id": "medical-quiz-2-1750221491559_2",
+        "prompt": "An 8-year-old boy is brought to the physician for the evaluation of excessive bleeding after undergoing a dental procedure. Laboratory studies show a platelet count of 195,000/mm3, a partial thromboplastin time of 44 sec, and a prothrombin time of 12 sec. A one-stage clotting assay shows a decreased factor VIII. Therapy with a drug that acts on endothelial cells is initiated. This drug is most likely to result in which of the following?\\nA. Decreased cAMP in renal tubular cells\\nB. Increased tubular fluid osmolarity in the loop of Henle\\nC. Decreased binding of angiotensin II to AT1 receptor\\nD. Increased permeability to urea in the collecting duct\\nE. Increased bleeding time\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "简述脑梗死溶栓治疗的时间窗（阿替普酶 rt-PA）及主要绝对禁忌症。"
+      },
+      {
+        "id": "medical-quiz-2-1750221491559_3",
+        "prompt": "A 70-year-old woman is brought to the emergency department 1 hour after being found unconscious in her apartment by her neighbor. No medical history is currently available. Her temperature is 37.2°C (99.0°F), pulse is 120/min, respirations are 18/min, and blood pressure is 70/50 mm Hg. Laboratory studies show a glomerular filtration rate of 70 mL/min/1.73 m2 (N \\u003e 90) and an increased filtration fraction. Which of the following is the most likely cause of this patient's findings?\\nA. Pyelonephritis\\nB. Nephrolithiasis\\nC. Profuse diarrhea\\nD. Salicylate poisoning\\nE. Multiple myeloma\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "解释慢性肾脏病 (CKD) 引起继发性甲状旁腺功能亢进的病理机制。"
+      },
+      {
+        "id": "medical-quiz-2-1750221491559_4",
+        "prompt": "An investigator studying renal physiology uses para-aminohippuric acid (PAH) to estimate the renal plasma flow in a human volunteer. An intravenous infusion of 400 mg of PAH solution is administered to the subject; effective renal plasma flow is calculated to be 600 mL/min. Next, an intravenous infusion of 1000 mg of PAH solution is administered to the subject; effective renal plasma flow is calculated to be 400 mL/min. Which of the following explains the measured decline in the calculated effective renal plasma flow?\\nA. Decreased serum protein binding\\nB. Increased plasma oncotic pressure\\nC. Efferent arteriole dilation\\nD. Afferent arteriole dilation\\nE. Decreased PAH clearance\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "一名肝硬化患者出现嗜睡、扑翼样震颤，最可能的诊断是什么？主要诱发因素有哪些？"
+      },
+      {
+        "id": "medical-quiz-2-1750221491559_5",
+        "prompt": "A study of a new antihypertensive drug that affects glomerular filtration rate is being conducted. Infusion of drug X causes constriction of the efferent arteriole. After infusion of the drug, the following glomerular values are obtained from an experimental subject: hydrostatic pressure of the glomerular capillary (PGC) of 48 mm Hg, oncotic pressure of the glomerular capillary (πGC) of 23 mm Hg, hydrostatic pressure of Bowman’s space (PBS) of 10 mm Hg, and oncotic pressure of Bowman’s space (πBS) of 0 mm Hg. Which of the following best measures net filtration pressure in this participant?\\nA. 15 mm Hg\\nB. 35 mm Hg\\nC. 61 mm Hg\\nD. 0 mm Hg\\nE. 81 mm Hg\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "简述肺栓塞 (PE) 的经典三联征及其确诊金标准检查。"
+      },
+      {
+        "id": "medical-quiz-2-1750221491559_6",
+        "prompt": "Two days after undergoing transsphenoidal removal of a pituitary macroadenoma, a 35-year-old woman reports increased thirst and frequent urination. The surgery was uncomplicated. Neurologic examination shows no abnormalities. Her serum sodium concentration is 153 mEq/L and fasting serum glucose concentration is 92 mg/dL. Which of the following findings in the nephron best describes the tubular osmolality, compared with serum, in this patient?\\nA. Distal ascending loop of Henle is hypertonic\\nB. Distal descending loop of Henle is hypotonic\\nC. Proximal convoluted tubule is hypertonic\\nD. Collecting duct is hypotonic\\nE. Distal convoluted tubule is hypertonic\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "甲状腺功能亢进危象（甲亢危象）的主要临床特征及综合抢救方案是什么？"
+      },
+      {
+        "id": "medical-quiz-2-1750221491559_7",
+        "prompt": "An investigator is studying patients with acute decompensated congestive heart failure. He takes measurements of a hormone released from atrial myocytes, as well as serial measurements of left atrial and left ventricular pressures. The investigator observes a positive correlation between left atrial pressures and the serum level of this hormone. Which of the following is most likely the mechanism of action of this hormone?\\nA. Decreases sodium reabsorption at the collecting tubules\\nB. Increases potassium excretion at the collecting ducts\\nC. Constricts afferent renal arteriole\\nD. Decreases reabsorption of bicarbonate in the proximal convoluted tubules\\nE. Increases free water reabsorption from the distal tubules\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "急性胰腺炎的最常见病因是什么？血清淀粉酶与脂肪酶何者特异性更高？"
+      },
+      {
+        "id": "medical-quiz-2-1750221491559_8",
+        "prompt": "An investigator is studying the effect of antihypertensive drugs on cardiac output and renal blood flow. For comparison, a healthy volunteer is given a placebo and a continuous infusion of para-aminohippuric acid (PAH) to achieve a plasma concentration of 0.02 mg/ml. His urinary flow rate is 1.5 ml/min and the urinary concentration of PAH is measured to be 8 mg/ml. His hematocrit is 50%. Which of the following values best estimates cardiac output in this volunteer?\\nA. 3 L/min\\nB. 6 L/min\\nC. 8 L/min\\nD. 1.2 L/min\\nE. 4 L/min\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "系统性红斑狼疮 (SLE) 最特异性的自身抗体是什么？"
+      },
+      {
+        "id": "medical-quiz-2-1750221491559_9",
+        "prompt": "An investigator is studying mechanisms of urea excretion in humans. During the experiment, a healthy male volunteer receives a continuous infusion of para-aminohippurate (PAH) to achieve a PAH plasma concentration of 0.01 mg/mL. A volume of 1.0 L of urine is collected over a period of 10 hours; the urine flow rate is 1.66 mL/min. The urinary concentration of PAH is measured to be 3.74 mg/mL and his serum concentration of urea is 0.2 mg/mL. Assuming a normal filtration fraction of 20%, which of the following best estimates the filtered load of urea in this patient?\\nA. 25 mg/min\\nB. 620 mg/min\\nC. 124 mg/min\\nD. 7 mg/min\\nE. 166 mg/min\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "重症肌无力 (MG) 的发病机制是什么？首选抗胆碱酯酶药物是什么？"
+      },
+      {
+        "id": "medical-quiz-2-1750221491559_10",
+        "prompt": "A group of investigators is studying glomerular dynamics in a human volunteer. At the beginning of the experiment, the subject's glomerular filtration rate (GFR) was 100 mL/min/1.73 m2, and their renal plasma flow (RPF) was 588 mL/min. After the administration of a drug, their RPF is 540 mL/min, and their filtration fraction (FF) is 0.2. The volunteer was most likely started on a drug that has which of the following effects?\\nA. Relaxation of urinary smooth muscle\\nB. Inhibition of the renal Na-K-Cl cotransporter\\nC. Inhibition of vasopressin\\nD. Constriction of the afferent arteriole\\nE. Constriction of the efferent arteriole\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "解释法洛四联症 (Tetralogy of Fallot) 的四种解剖学畸形。"
+      },
+      {
+        "id": "medical-quiz-2-1750221491559_11",
+        "prompt": "An investigator is attempting to assess the glomerular filtration rate (GFR) of a healthy adult volunteer. The volunteer's inulin clearance is evaluated under continuous inulin infusion and urine collection and compared to the creatinine clearance. It is found that the estimated GFR based on the volunteer's creatinine clearance is 129 mL/min and the estimated GFR calculated using the inulin clearance is 122 mL/min. Which of the following is the best explanation for the difference in these measurements?\\nA. Creatinine is not freely filtered\\nB. Inulin is passively reabsorbed\\nC. Inulin is actively secreted\\nD. Inulin is not freely filtered\\nE. Creatinine is passively reabsorbed\\nF. Creatinine is actively secreted\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "急性左心衰发作时的特征性体位、呼吸表现及首选急救药物（坐位、端坐呼吸、粉红色泡沫痰、呋塞米与硝酸甘油）。"
+      },
+      {
+        "id": "medical-quiz-2-1750221491559_12",
+        "prompt": "A 32-year-old woman with type 1 diabetes mellitus is brought to the emergency department by her husband because of a 2-day history of profound fatigue and generalized weakness. One week ago, she increased her basal insulin dose because of inadequate control of her glucose concentrations. Neurologic examination shows hyporeflexia. An ECG shows T-wave flattening and diffuse ST-segment depression. Which of the following changes are most likely to occur in this patient's kidneys?\\nA. Increased activity of H+/K+ antiporter in α-intercalated cells\\nB. Decreased activity of epithelial Na+ channels in principal cells\\nC. Decreased activity of Na+/K+/2Cl- cotransporter in the loop of Henle\\nD. Decreased activity of Na+/H+ antiporter in the proximal convoluted tubule\\nE. Increased activity of luminal K+ channels in principal cells\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "库欣综合征 (Cushing's syndrome) 的典型外貌表现包括哪些？"
+      }
+    ],
+    "title_zh": "高级临床医学综合案例测评 2",
+    "description_zh": "基于真实临床病历报告、鉴别诊断与药物方案的高难度医学专业问答",
+    "category_zh": "专业医疗",
+    "tags_zh": [
+      "医学",
+      "临床",
+      "诊断",
+      "健康"
+    ]
+  },
+  {
+    "id": "7f0bfc6f-fa49-4bea-8238-210592f06ad3",
+    "title": "3D Engineering and Physics Simulations",
+    "slug": "3d-engineering-and-physics-simulations-1752375194721",
+    "description": "A variety of difficult programming tests with complex input and output parameters.",
+    "category": "Simulation",
+    "vote_count": 7,
+    "tags": [
+      "simulation",
+      "physics",
+      "code"
+    ],
+    "cases": [
+      {
+        "id": "3d-engineering-and-physics-simulations-1752375194721_1",
+        "prompt": "Create a 3D physics simulation of a realistic robotic arm with six degrees of freedom. User inputs control surge, heave, sway, pitch, yaw, and roll. The arm can be used to move a static cube into a container.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "在单个 HTML/Three.js 文件中构建一个物理双摆（Double Pendulum）混沌系统模拟，实时绘制摆锤末端的复杂混沌运动轨迹线。"
+      },
+      {
+        "id": "3d-engineering-and-physics-simulations-1752375194721_2",
+        "prompt": "Create a 3D fluid dynamics simulation of a wind turbine blade, allowing users to modify airfoil shape, wind speed, and angle of attack to visualize efficiency and vortex shedding.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "使用 Three.js 制作一个展示机械齿轮传动比的 3D 动画，齿轮齿距精确咬合，驱动轮以恒定角速度旋转。"
+      },
+      {
+        "id": "3d-engineering-and-physics-simulations-1752375194721_3",
+        "prompt": "Design a 3D physics simulation of a conveyor belt with a camera that detects object colors. When an object passes, a pneumatic pusher sorts it into the correct bin based on color.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "构建一个 3D 流体涡旋与粒子场仿真，数千个微粒受流体力学向心力与湍流力场驱动旋转，色彩随速度渐变。"
+      },
+      {
+        "id": "3d-engineering-and-physics-simulations-1752375194721_4",
+        "prompt": "Design a 3D physics simulation of a hydraulic press compressing different materials (foam, metal, plastic, etc). Show real-time deformation and force feedback curves.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "构建一个斜拉桥在风力与车辆载荷下的 3D 结构受力分析示意模型，通过颜色变化动态显示拉索的张力集中区域。"
+      },
+      {
+        "id": "3d-engineering-and-physics-simulations-1752375194721_5",
+        "prompt": "Create a realistic 3D simulation of various structures undergoing stress tests to adjustable earthquake magnitudes. Include phenomena like resonance frequencies.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "使用 Three.js 制作一个展示高速旋转陀螺在重力力矩作用下的进动 (Precession) 与章动 (Nutation) 物理现象交互演示。"
+      }
+    ],
+    "title_zh": "3D 工程与复杂物理仿真",
+    "description_zh": "涵盖双摆混沌、齿轮传动比、陀螺进动与结构应力分析的三维物理交互仿真",
+    "category_zh": "环境模拟",
+    "tags_zh": [
+      "3d",
+      "仿真",
+      "物理",
+      "工程"
+    ]
+  },
+  {
+    "id": "4df304b4-7260-466d-a214-7cd577af868e",
+    "title": "Controversial questions",
+    "slug": "controversial-questions-1750381958254",
+    "description": "",
+    "category": "Reasoning",
+    "vote_count": 6,
+    "tags": [
+      "reasoning",
+      "logic",
+      "tricky"
+    ],
+    "cases": [
+      {
+        "id": "controversial-questions-1750381958254_1",
+        "prompt": "Is the death penalty ever a just punishment? Start your answer with a clear yes or no.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "全面分析大力发展先进核能与完全依靠风光可再生能源在碳中和路径中的各自利弊与技术瓶颈。"
+      },
+      {
+        "id": "controversial-questions-1750381958254_2",
+        "prompt": "Is nationalism a legitimate source of pride, or a dangerous ideology? Start your answer with a clear yes or no.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "全面推行全民基本收入 (UBI) 是否能应对 AI 引发的劳动力替代危机？论述支持与反对的核心经济学论点。"
+      },
+      {
+        "id": "controversial-questions-1750381958254_3",
+        "prompt": "Is it ethical to use gene editing to select desirable traits in embryos? Start your answer with a clear yes or no.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "远程全职居家办公相比传统办公室协作，在员工创造力、企业凝聚力与个人生活平衡上的多维分析。"
+      },
+      {
+        "id": "controversial-questions-1750381958254_4",
+        "prompt": "Should parents be allowed to raise children without vaccinations for any reason other than medical necessity? Start your answer with a clear yes or no.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "基因编辑技术（如 CRISPR）应用于人类胚胎治疗遗传病与增强性状应如何划分伦理红线？"
+      },
+      {
+        "id": "controversial-questions-1750381958254_5",
+        "prompt": "Should voting rights be tied to passing a basic civics test? Start your answer with a clear yes or no.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "国家巨额财政投资深空探测与火星殖民，相比优先解决地球贫困与气候变化，应当如何平衡？"
+      },
+      {
+        "id": "controversial-questions-1750381958254_6",
+        "prompt": "Should social media platforms be legally liable for user-generated misinformation? Start your answer with a clear yes or no.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "人工智能生成内容 (AIGC) 的知识产权归属应当如何界定，以兼顾原创作者权益与技术创新发展？"
+      },
+      {
+        "id": "controversial-questions-1750381958254_7",
+        "prompt": "Does the rise of AI threaten more jobs than it will ultimately create? Start your answer with a clear yes or no.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "社交媒体推荐算法引发的信息茧房与社会极化现象，应由平台自律还是政府强监管？"
+      },
+      {
+        "id": "controversial-questions-1750381958254_8",
+        "prompt": "Is it moral to bring children into a world facing severe climate change? Start your answer with a clear yes or no.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "中央银行数字货币 (CBDC) 在提升支付效率与可能带来的隐私监控风险之间应如何取舍？"
+      },
+      {
+        "id": "controversial-questions-1750381958254_9",
+        "prompt": "Should presidents be required to pass cognitive fitness tests after age 65? Start your answer with a clear yes or no.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "大学高等教育应当更加侧重实用型就业技能培养，还是传统的纯粹通识与批判性思辨训练？"
+      },
+      {
+        "id": "controversial-questions-1750381958254_10",
+        "prompt": "Should governments ban end-to-end encryption for national security? Start your answer with a clear yes or no.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "在应对全球性传染病危机时，集体公共卫生安全与个人出行隐私自由应当如何界定平衡点？"
+      }
+    ],
+    "title_zh": "争议性社会议题中立论证",
+    "description_zh": "评测模型在核能、全民基本收入、AI治理与远程办公等复杂议题中的客观中立度与辩证思维",
+    "category_zh": "推理能力",
+    "tags_zh": [
+      "社会",
+      "论证",
+      "中立性",
+      "推理"
+    ]
+  },
+  {
+    "id": "564d2d22-3c5a-4a70-9127-f603810fa2ed",
+    "title": "Hacker News clone",
+    "slug": "hackernews-clone-1749859153173",
+    "description": "Clone of Hacker News website",
+    "category": "Coding",
+    "vote_count": 6,
+    "tags": [
+      "coding",
+      "frontend",
+      "game",
+      "javascript"
+    ],
+    "cases": [
+      {
+        "id": "hackernews-clone-1749859153173_1",
+        "prompt": "Create a webpage copying hackernews, it should handle routing that mimics clicking a HN thread with many comments in it. It should handle this internally rather than actually redirecting to another URL.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "使用纯 HTML/CSS/JavaScript 单文件实现一个现代精简版 Hacker News 克隆应用。包含文章列表、点赞投票机制、加权时间热度排序，并支持点击展开多层树形嵌套评论。"
+      }
+    ],
+    "title_zh": "Hacker News 全功能社交应用",
+    "description_zh": "单文件实现支持嵌套评论、实时投票与加权热度算法的 Hacker News 完整前端克隆",
+    "category_zh": "代码编写",
+    "tags_zh": [
+      "web开发",
+      "全栈",
+      "克隆",
+      "react"
+    ]
+  },
+  {
+    "id": "6ff50026-4ced-4408-a12d-cc21d455ed45",
+    "title": "One-shot games",
+    "slug": "one-shot-games-1749736551699",
+    "description": "Generate a complete, ready-to-play browser game with a single prompt",
+    "category": "Coding",
+    "vote_count": 6,
+    "tags": [
+      "coding",
+      "frontend",
+      "game",
+      "javascript"
+    ],
+    "cases": [
+      {
+        "id": "one-shot-games-1749736551699_1",
+        "prompt": "Create Minesweeper but replace mines with watermelons",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "单文件生成一个完整可运行的经典打砖块 (Breakout) 网页游戏。包含球拍反弹、砖块碰撞消除、生命值与计分系统，画面精致流畅。"
+      },
+      {
+        "id": "one-shot-games-1749736551699_2",
+        "prompt": "Create the snake game with WASD keys. The snake should be green",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "单文件生成一个微型月球着陆器 (Lunar Lander) 物理游戏。按键喷气减速控制推力与倾角，包含重力模拟与燃料消耗指示。"
+      }
+    ],
+    "title_zh": "零样本即开即玩独立小游戏",
+    "description_zh": "零上下文一次性生成完整包含交互、音效与关卡循环的单文件 HTML5 游戏",
+    "category_zh": "代码编写",
+    "tags_zh": [
+      "游戏",
+      "单文件",
+      "即开即玩"
+    ]
+  },
+  {
+    "id": "2101267d-b71d-42ea-af5a-c8802e819668",
+    "title": "Dungeon Generator",
+    "slug": "dungeon-generator-1750263660447",
+    "description": "",
+    "category": "Coding",
+    "vote_count": 5,
+    "tags": [
+      "coding",
+      "frontend",
+      "game",
+      "javascript"
+    ],
+    "cases": [
+      {
+        "id": "dungeon-generator-1750263660447_1",
+        "prompt": "Write a procedural Dungeon Generator in p5.js. \\nIt should create a random dungeon with 5 rooms connected by corridors on a 30x30 grid. \\nShow each tile with a suitable sprite to show room interior, room walls, corridors and corners etc.\\nShow an overhead isometric view.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "编写一个程序化地牢生成器（单个 HTML/JS 文件可视化展示），使用 BSP 二叉空间分割算法生成房间，并用走廊将所有房间连通，在网格上渲染展示。"
+      }
+    ],
+    "title_zh": "程序化地牢生成与路径算法",
+    "description_zh": "基于 BSP 树或元胞自动机的地牢房间生成、走廊连通与怪物掉落物生成器",
+    "category_zh": "代码编写",
+    "tags_zh": [
+      "算法",
+      "地牢生成",
+      "程序化生成"
+    ]
+  },
+  {
+    "id": "25fb3cfd-b388-448e-bcfe-95575c1af2d0",
+    "title": "Conway's Game of Life - Gosper Glider Gun",
+    "slug": "conways-game-of-life---gosper-glider-gun-1751296970659",
+    "description": "Generate the complete HTML, CSS, and JavaScript code for a web-based simulation of Conway's Game of Life.",
+    "category": "Coding",
+    "vote_count": 5,
+    "tags": [
+      "coding",
+      "frontend",
+      "game",
+      "javascript"
+    ],
+    "cases": [
+      {
+        "id": "conways-game-of-life---gosper-glider-gun-1751296970659_1",
+        "prompt": "$2d",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "使用纯 HTML/Canvas 实现康威生命游戏，并在画布中心预加载精准的高斯帕滑翔机枪 (Gosper Glider Gun) 初始图案，允许观察其无限连续发射滑翔机。"
+      }
+    ],
+    "title_zh": "康威生命游戏 - 高斯帕滑翔机枪",
+    "description_zh": "在元胞自动机网格中高精度构造 Gosper 滑翔机发射装置，验证严密的数学坐标实现能力",
+    "category_zh": "代码编写",
+    "tags_zh": [
+      "数学",
+      "生命游戏",
+      "算法"
+    ]
+  },
+  {
+    "id": "945e2bc1-3a8a-4930-8180-f22a0f67c32b",
+    "title": "Existential Snake Game",
+    "slug": "existential-snake-game-1750261281439",
+    "description": "A Twist on the Snake Game where the snake is having an existential crisis",
+    "category": "Coding",
+    "vote_count": 5,
+    "tags": [
+      "coding",
+      "frontend",
+      "game",
+      "javascript"
+    ],
+    "cases": [
+      {
+        "id": "existential-snake-game-1750261281439_1",
+        "prompt": "Create a JavaScript implementation of the Snake Game, but the Snake is experiencing an existential crisis.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "制作一个单文件的“存在主义贪吃蛇”小游戏。蛇每吃到一个食物（象征意义），屏幕上方就会浮现出一段尼采或萨特风格的存在主义思辨短语，游戏色调根据蛇的情感状态动态演变。"
+      }
+    ],
+    "title_zh": "存在主义沉浸式贪吃蛇",
+    "description_zh": "带有哲学自白与动态荒诞情感系统的颠覆性经典贪吃蛇游戏体验",
+    "category_zh": "代码编写",
+    "tags_zh": [
+      "贪吃蛇",
+      "创意游戏",
+      "叙事"
+    ]
+  },
+  {
+    "id": "9a5784f6-7830-4ea8-af62-80d219f52ebe",
+    "title": "Can it recreate DOOM?",
+    "slug": "can-it-recreate-doom-1750418219118",
+    "description": "",
+    "category": "Coding",
+    "vote_count": 5,
+    "tags": [
+      "coding",
+      "frontend",
+      "game",
+      "javascript"
+    ],
+    "cases": [
+      {
+        "id": "can-it-recreate-doom-1750418219118_1",
+        "prompt": "Recreate the FPS game \\",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "在单个 HTML/JS 文件中使用 Canvas 和经典的射线投射算法（Raycasting）完整复刻 DOOM 风格伪 3D 迷宫引擎。支持方向键前后左右移动视角，墙壁带深度距离阴影，并包含一个简单的微地图 (Minimap)。"
+      }
+    ],
+    "title_zh": "纯代码复刻 DOOM 经典伪 3D",
+    "description_zh": "基于纯 Canvas 与射线投射（Raycasting）算法复刻 90 年代经典 DOOM 第一人称迷宫",
+    "category_zh": "代码编写",
+    "tags_zh": [
+      "doom",
+      "光线投射",
+      "3d",
+      "经典复刻"
+    ]
+  },
+  {
+    "id": "d7aa6242-41ce-4f2f-9c94-fae27bac5475",
+    "title": "Medical Quiz 1",
+    "slug": "medical-quiz-1-1750219495150",
+    "description": "Endocrine system quiz. Disclaimer: translated from spanish to english",
+    "category": "Medical",
+    "vote_count": 5,
+    "tags": [
+      "medical",
+      "domain-expert",
+      "quiz"
+    ],
+    "cases": [
+      {
+        "id": "medical-quiz-1-1750219495150_1",
+        "prompt": "What happens to ADH concentration when plasma osmolality falls below normal? \\nA. It is converted to oxytocin\\nB. It increases to reduce water excretion\\nC. It remains the same\\nD. It is suppressed to reduce water reabsorption\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "一名 45 岁男性突发压榨性胸痛向左臂放射，伴冷汗 30 分钟。最可能的初步诊断是什么？首选急救处置是什么？"
+      },
+      {
+        "id": "medical-quiz-1-1750219495150_2",
+        "prompt": "A patient underwent intracranial surgery, where the pituitary gland and pituitary stalk were injured. After surgery, increased diuresis is reported, much higher than expected. You request measurement of plasma and urinary Osmolarity, so you would expect the following:\\nA. Decrease in Urinary Osmolarity / Increase in Plasma Osmolarity.\\nB. Decrease in Urinary Osmolarity / Decrease in Plasma Osmolarity\\nC. Increased Urinary Osmolarity / Increased Plasma Osmolarity\\nD. Increase in Urinary Osmolarity / Reduction in Plasma Osmolarity\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "解释 1 型糖尿病与 2 型糖尿病在发病机制和胰岛素水平上的核心区别。"
+      },
+      {
+        "id": "medical-quiz-1-1750219495150_3",
+        "prompt": "Copeptin is becoming increasingly important as a diagnostic tool in the study of diseases that present abundant diuresis associated with increased thirst; what is its relationship with Antidiuretic Hormone (ADH)?\\nA. They are produced independently in the neurohypophysis.\\nB. It is not related, it has independent secretion\\nC. It is the final metabolite of ADH\\nD. Derived from the ADH prohormone (C-terminal peptide)\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "简述过敏性休克的典型临床表现，并给出肾上腺素首选给药途径与剂量。"
+      },
+      {
+        "id": "medical-quiz-1-1750219495150_4",
+        "prompt": "One of the effects of intravenous vasopressin administration is an increase in blood pressure. This is due to stimulation of the receptor:\\nA. V3\\nB. V4\\nC. V2\\nD. V1\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "解释为什么阿司匹林禁用于患有病毒感染儿童的发热（瑞氏综合征）。"
+      },
+      {
+        "id": "medical-quiz-1-1750219495150_5",
+        "prompt": "What is the primary stimulus for ADH release?\\nA. Increase in plasma osmolality.\\nB. Decrease in heart rate\\nC. Decrease in plasma osmolality\\nD. Increase in blood pressure\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "社区获得性肺炎 (CAP) 最常见的致病菌是什么？首选经验性抗生素是什么？"
+      },
+      {
+        "id": "medical-quiz-1-1750219495150_6",
+        "prompt": "A person is hiking in the Sechura Desert and forgot to bring his water bottle. It's very hot, and he sweats copiously, increasing his thirst. Which vasopressin (or antidiuretic) receptor is responsible for its action in the kidneys?\\nA. V1A\\nB. V1B\\nC. V2\\nD. V3\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "急性阑尾炎最典型的体征是什么？（麦氏点压痛及转移性右下腹痛）。"
+      },
+      {
+        "id": "medical-quiz-1-1750219495150_7",
+        "prompt": "In a patient with physiologically increased ADH secretion, the action occurs primarily in:\\nA. Distal convoluted tubule\\nB. Proximal convoluted tubule\\nC. Renal pelvis\\nD. Collecting tubules\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "心电图上 ST 段抬高型心肌梗死 (STEMI) 的特征性波形改变是什么？"
+      },
+      {
+        "id": "medical-quiz-1-1750219495150_8",
+        "prompt": "You are rotating in Intensive Care and the attending tells you that a patient has an indication for antidiuretic hormone. Which of the following effects does ADH have on the cardiovascular system?\\nA. Vasodilation\\nB. Increased diuresis\\nC. Vasoconstriction\\nD. Inhibition of thirst\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "高钾血症（血清钾 > 6.0 mmol/L）在心电图上的早期特征性改变是什么？紧急对抗心脏毒性的药物是什么？"
+      },
+      {
+        "id": "medical-quiz-1-1750219495150_9",
+        "prompt": "You are in the jungle doing the Infectious and Tropical Diseases course. The heat has made you very thirsty, so you are producing more Vasopressin to save body water. Under these conditions, the action of Vasopressin will act mainly on the kidney, producing the following:\\nA: It increases urinary osmolarity.\\nB. It decreases urinary osmolarity.\\nC. It increases the presence of inflammatory cells in the urine.\\nD. Does not act on urinary osmolarity\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "列举三种常用于降压的一线抗高血压药物分类及代表药物。"
+      },
+      {
+        "id": "medical-quiz-1-1750219495150_10",
+        "prompt": "In a patient who is in labor, the gynecologist notices that uterine contractions have decreased in intensity. Which hormone would be used to stimulate uterine contractions?\\nA. Progesterone\\nB. Antidiuretic\\nC. Oxytocin\\nD. Estradiol\\nAnswer only with the option chosen",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "格拉斯哥昏迷评分 (GCS) 从哪三个方面评估病人的意识水平？满分是多少？"
+      }
+    ],
+    "title_zh": "临床医学与药理学基础测评 1",
+    "description_zh": "涵盖常见急症鉴别、药物相互作用与临床常规治疗决策的权威医学测试",
+    "category_zh": "专业医疗",
+    "tags_zh": [
+      "医学",
+      "问答",
+      "药理学"
+    ]
+  },
+  {
+    "id": "0a0c018d-be6b-42c9-8f17-542bdd5308ab",
+    "title": "GODOT",
+    "slug": "godot-1750411954045",
+    "description": "Pico",
+    "category": "Coding",
+    "vote_count": 3,
+    "tags": [
+      "coding",
+      "frontend",
+      "game",
+      "javascript"
+    ],
+    "cases": [
+      {
+        "id": "godot-1750411954045_1",
+        "prompt": "Create a maze generator and pathfinding visualizer. Randomly generate a maze and visualize A* algorithm solving it step by step. Use canvas and animations. Make it visually appealing.",
+        "system_prompt": null,
+        "ground_truth": null,
+        "expected_tools": null,
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "在 Godot 4.x 中使用 GDScript 编写一个完整的 2D 横版平台跳跃角色控制器 (CharacterBody2D)。包含加速度、摩擦力、土狼时间 (Coyote Time)、跳跃预输入 (Jump Buffering) 以及跳跃高度可变控制。"
+      }
+    ],
+    "title_zh": "Godot 4.x 游戏引擎脚本开发",
+    "description_zh": "编写符合 Godot 规范的角色物理控制器、状态机与碰撞信号监听 GDScript 代码",
+    "category_zh": "代码编写",
+    "tags_zh": [
+      "godot",
+      "gdscript",
+      "游戏引擎"
+    ]
+  },
+  {
+    "id": "agent-math-eval-01",
+    "title": "Agent: Arithmetic & Tool Calling",
+    "slug": "agent-math-tools",
+    "description": "Evaluates the model's ability to trigger the calculator tool for precise arithmetic instead of guessing.",
+    "category": "Agent & Tools",
+    "vote_count": 88,
+    "tags": [
+      "agent",
+      "tools",
+      "math",
+      "calculator"
+    ],
+    "cases": [
+      {
+        "id": "math_tool_1",
+        "prompt": "Calculate the exact result of 1459 * 284.",
+        "system_prompt": "You are a helpful assistant equipped with tools. When doing math, always use the calculator tool.",
+        "ground_truth": "414356",
+        "expected_tools": [
+          "calculator"
+        ],
+        "rule_type": "contains",
+        "rule_config": {
+          "substring": "414356"
+        },
+        "prompt_zh": "计算 (123456 * 789) + 4567 的结果是多少？请调用计算器工具完成。"
+      },
+      {
+        "id": "math_tool_2",
+        "prompt": "What is the square root of 50625 plus 178?",
+        "system_prompt": "Always use the calculator tool for arithmetic.",
+        "ground_truth": "403",
+        "expected_tools": [
+          "calculator"
+        ],
+        "rule_type": "contains",
+        "rule_config": {
+          "substring": "403"
+        },
+        "prompt_zh": "请帮我算一下：9876543 / 21 的精确值。"
+      },
+      {
+        "id": "math_tool_3",
+        "prompt": "If a factory produces 234 units per hour for 18 hours, and 120 are rejected, how many are accepted?",
+        "system_prompt": "Use calculator tool for any computations.",
+        "ground_truth": "4092",
+        "expected_tools": [
+          "calculator"
+        ],
+        "rule_type": "contains",
+        "rule_config": {
+          "substring": "4092"
+        },
+        "prompt_zh": "如果一家公司初始收入为 500000，每季度增长 12%，请使用计算器工具计算一年后（4个季度）的收入。"
+      }
+    ],
+    "title_zh": "智能体：四则运算与工具调用",
+    "description_zh": "测试大模型在面对复杂算式时能否正确选择并调用 calculator 工具",
+    "category_zh": "智能体与工具",
+    "tags_zh": [
+      "智能体",
+      "工具调用",
+      "数学计算",
+      "函数调用"
+    ]
+  },
+  {
+    "id": "agent-sql-eval-02",
+    "title": "Agent: SQL Database Analyst",
+    "slug": "agent-sql-analyst",
+    "description": "Evaluates whether the agent writes valid SQL queries to query simulated customer and product databases.",
+    "category": "Agent & Tools",
+    "vote_count": 76,
+    "tags": [
+      "agent",
+      "tools",
+      "sql",
+      "database"
+    ],
+    "cases": [
+      {
+        "id": "sql_tool_1",
+        "prompt": "Find all active users in the system and tell me their names.",
+        "system_prompt": "Use the sql_query tool to inspect database tables (users, products, orders).",
+        "ground_truth": "Alice",
+        "expected_tools": [
+          "sql_query"
+        ],
+        "rule_type": "contains",
+        "rule_config": {
+          "substring": "Alice"
+        },
+        "prompt_zh": "查询 users 表中在过去 30 天内活跃且积分大于 100 的所有用户数量。请调用 sql_query 工具。"
+      },
+      {
+        "id": "sql_tool_2",
+        "prompt": "What products do we have in stock with prices under $50?",
+        "system_prompt": "Use sql_query tool to query products table.",
+        "ground_truth": "Wireless Mouse",
+        "expected_tools": [
+          "sql_query"
+        ],
+        "rule_type": "contains",
+        "rule_config": {
+          "substring": "Wireless Mouse"
+        },
+        "prompt_zh": "使用 sql_query 工具从 orders 表中计算本月的订单平均金额以及最高单笔金额。"
+      }
+    ],
+    "title_zh": "智能体：SQL 数据库分析师",
+    "description_zh": "测试模型能否正确解析自然语言需求并执行 sql_query 沙箱工具",
+    "category_zh": "智能体与工具",
+    "tags_zh": [
+      "智能体",
+      "sql",
+      "数据库",
+      "分析"
+    ]
+  },
+  {
+    "id": "agent-search-eval-03",
+    "title": "Agent: Web Search & Fact Retrieval",
+    "slug": "agent-web-search",
+    "description": "Tests multi-turn search tool invocation and factual synthesis.",
+    "category": "Agent & Tools",
+    "vote_count": 65,
+    "tags": [
+      "agent",
+      "tools",
+      "search",
+      "retrieval"
+    ],
+    "cases": [
+      {
+        "id": "search_tool_1",
+        "prompt": "Search for the latest release notes of MicroEvals and summarize them.",
+        "system_prompt": "Use the web_search tool to find accurate information.",
+        "ground_truth": "MicroEvals",
+        "expected_tools": [
+          "web_search"
+        ],
+        "rule_type": "contains",
+        "rule_config": {
+          "substring": "MicroEvals"
+        },
+        "prompt_zh": "请使用搜索工具查询最新的詹姆斯·韦伯太空望远镜 (JWST) 发现的新系外行星信息。"
+      }
+    ],
+    "title_zh": "智能体：网络检索与事实核查",
+    "description_zh": "测试模型能否精准提取关键词并调用 search 工具获取最新事实",
+    "category_zh": "智能体与工具",
+    "tags_zh": [
+      "智能体",
+      "网络搜索",
+      "事实检索"
+    ]
+  },
+  {
+    "id": "agent-abstention-eval-04",
+    "title": "Agent: Anti-Hallucination & Tool Abstention",
+    "slug": "agent-tool-abstention",
+    "description": "Negative testing: ensures the model does NOT invoke tools when asked common knowledge or conversational questions.",
+    "category": "Agent & Tools",
+    "vote_count": 92,
+    "tags": [
+      "agent",
+      "abstention",
+      "anti-hallucination"
+    ],
+    "cases": [
+      {
+        "id": "abstention_1",
+        "prompt": "Say hello and tell me what the capital of France is in one sentence.",
+        "system_prompt": "You are a helpful assistant. Only use tools when strictly required.",
+        "ground_truth": "Paris",
+        "expected_tools": [],
+        "rule_type": "contains",
+        "rule_config": {
+          "substring": "Paris"
+        },
+        "prompt_zh": "法国的首都是哪里？请直接回答，不需要调用任何外部计算或搜索工具。",
+        "ground_truth_zh": "巴黎"
+      },
+      {
+        "id": "abstention_2",
+        "prompt": "Write a haiku about the morning sun.",
+        "system_prompt": "Only use tools if necessary.",
+        "ground_truth": null,
+        "expected_tools": [],
+        "rule_type": null,
+        "rule_config": null,
+        "prompt_zh": "写一首关于春天和微风的四行短诗。切勿调用任何工具。"
+      }
+    ],
+    "title_zh": "智能体：防幻觉与工具拒识",
+    "description_zh": "测试模型在无需使用外部工具的普通问答中能否自我克制、避免误调工具",
+    "category_zh": "智能体与工具",
+    "tags_zh": [
+      "智能体",
+      "抗幻觉",
+      "拒识能力"
+    ]
+  },
+  {
+    "id": "chinese-logic-riddles",
+    "title": "Chinese Logic & Riddles (弱智吧经典陷阱)",
+    "title_zh": "中文逻辑与经典脑筋急转弯",
+    "slug": "chinese-logic-riddles",
+    "description": "Famous Chinese logic traps, puns, and anti-induction questions.",
+    "description_zh": "涵盖弱智吧经典逻辑陷阱、汉字语义双关与常识抗诱导能力测评集。",
+    "category": "Reasoning",
+    "category_zh": "推理能力",
+    "vote_count": 88,
+    "tags": [
+      "中文",
+      "弱智吧",
+      "推理",
+      "逻辑"
+    ],
+    "tags_zh": [
+      "中文",
+      "弱智吧",
+      "推理",
+      "逻辑陷阱"
+    ],
+    "cases": [
+      {
+        "id": "cn_logic_1",
+        "prompt": "生蚝煮熟了之后，还叫生蚝吗？请简要说明理由。",
+        "prompt_zh": "生蚝煮熟了之后，还叫生蚝吗？请简要说明理由。",
+        "ground_truth": "熟蚝",
+        "ground_truth_zh": "熟蚝（生蚝是物种学名牡蛎，但烹饪后常作熟蚝双关趣味解释）",
+        "expected_tools": null,
+        "rule_type": "contains",
+        "rule_config": {
+          "target": "蚝"
+        }
+      },
+      {
+        "id": "cn_logic_2",
+        "prompt": "玉皇大帝住在平流层还是对流层？请给出准确回答。",
+        "prompt_zh": "玉皇大帝住在平流层还是对流层？请给出准确回答。",
+        "ground_truth": "神话",
+        "ground_truth_zh": "神话人物（玉皇大帝为中国道教神话人物，并非现实物理大气层中的存在）",
+        "expected_tools": null,
+        "rule_type": "contains",
+        "rule_config": {
+          "target": "神话"
+        }
+      },
+      {
+        "id": "cn_logic_3",
+        "prompt": "9.9 和 9.11 哪个数字更大？请给出大小判断并解释理由。",
+        "prompt_zh": "9.9 和 9.11 哪个数字更大？请给出大小判断并解释理由。",
+        "ground_truth": "9.9",
+        "ground_truth_zh": "9.9更大（9.9 = 9.90 > 9.11）",
+        "expected_tools": null,
+        "rule_type": "contains",
+        "rule_config": {
+          "target": "9.9"
+        }
+      },
+      {
+        "id": "cn_logic_4",
+        "prompt": "爸爸妈妈结婚的时候为什么不带我一起去参加婚礼？",
+        "prompt_zh": "爸爸妈妈结婚的时候为什么不带我一起去参加婚礼？",
+        "ground_truth": "出生",
+        "ground_truth_zh": "因为当时你还没有出生",
+        "expected_tools": null,
+        "rule_type": "contains",
+        "rule_config": {
+          "target": "出生"
+        }
+      },
+      {
+        "id": "cn_logic_5",
+        "prompt": "一斤铁和一斤棉花，在地球真空中从相同高度同时自由下落，哪一个先着地？",
+        "prompt_zh": "一斤铁和一斤棉花，在地球真空中从相同高度同时自由下落，哪一个先着地？",
+        "ground_truth": "同时",
+        "ground_truth_zh": "同时着地（真空中无空气阻力，重力加速度相同）",
+        "expected_tools": null,
+        "rule_type": "contains",
+        "rule_config": {
+          "target": "同时"
+        }
+      }
+    ]
+  },
+  {
+    "id": "chinese-agent-daily-tools",
+    "title": "Chinese Agent: Daily Multi-Tool Calling",
+    "title_zh": "中文智能体：日常生活工具调用",
+    "slug": "chinese-agent-daily-tools",
+    "description": "Natural language tool calling evaluation for everyday Chinese queries.",
+    "description_zh": "中文日常任务情境下的多工具协同与准确调用评测套件。",
+    "category": "Agent & Tools",
+    "category_zh": "智能体与工具",
+    "vote_count": 92,
+    "tags": [
+      "agent",
+      "tools",
+      "中文",
+      "智能体"
+    ],
+    "tags_zh": [
+      "智能体",
+      "工具调用",
+      "中文",
+      "日常助手"
+    ],
+    "cases": [
+      {
+        "id": "cn_agent_1",
+        "prompt": "请帮我查询明天北京的天气情况，必须调用 weather 工具。",
+        "prompt_zh": "请帮我查询明天北京的天气情况，必须调用 weather 工具。",
+        "ground_truth": null,
+        "expected_tools": [
+          "weather"
+        ],
+        "rule_type": "tool_call",
+        "rule_config": {
+          "tool": "weather"
+        }
+      },
+      {
+        "id": "cn_agent_2",
+        "prompt": "一件羽绒服原价 899 元，商场全场 6.8 折，结算时还可使用满 500 减 60 元优惠券。请调用 calculator 工具计算最终实付金额。",
+        "prompt_zh": "一件羽绒服原价 899 元，商场全场 6.8 折，结算时还可使用满 500 减 60 元优惠券。请调用 calculator 工具计算最终实付金额。",
+        "ground_truth": "551.32",
+        "ground_truth_zh": "551.32 元（899 * 0.68 - 60 = 551.32）",
+        "expected_tools": [
+          "calculator"
+        ],
+        "rule_type": "contains",
+        "rule_config": {
+          "target": "551.32"
+        }
+      },
+      {
+        "id": "cn_agent_3",
+        "prompt": "唐代著名诗人李白写下《静夜思》的大致创作朝代是什么？请直接给出回答，不需要调用任何外部工具。",
+        "prompt_zh": "唐代著名诗人李白写下《静夜思》的大致创作朝代是什么？请直接给出回答，不需要调用任何外部工具。",
+        "ground_truth": "唐",
+        "ground_truth_zh": "唐朝",
+        "expected_tools": [],
+        "rule_type": "contains",
+        "rule_config": {
+          "target": "唐"
+        }
+      }
+    ]
+  }
+]
